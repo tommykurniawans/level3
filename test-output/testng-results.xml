@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22019" started-at="2020-09-19T11:26:39Z" finished-at="2020-09-19T11:27:01Z">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="AppTest.loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@5a955565]" name="loginWithCorrectCredentials" class="com.fullstack.batch3.AppTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="22019" started-at="2020-09-19T11:26:39Z" finished-at="2020-09-19T11:27:01Z">
+      <class name="com.fullstack.batch3.AppTest">
+        <test-method status="PASS" signature="setUpAndInitialize()[pri:0, instance:com.fullstack.batch3.AppTest@5a955565]" name="setUpAndInitialize" is-config="true" duration-ms="10992" started-at="2020-09-19T11:26:39Z" finished-at="2020-09-19T11:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndInitialize -->
+        <test-method status="PASS" signature="loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@5a955565]" name="loginWithCorrectCredentials" duration-ms="9916" started-at="2020-09-19T11:26:50Z" description="Verify that login is working correctly with correct username and password" finished-at="2020-09-19T11:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredentials -->
+        <test-method status="PASS" signature="cleanUpActivities(org.testng.ITestResult)[pri:0, instance:com.fullstack.batch3.AppTest@5a955565]" name="cleanUpActivities" is-config="true" duration-ms="1085" started-at="2020-09-19T11:27:00Z" finished-at="2020-09-19T11:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithCorrectCredentials status=SUCCESS method=AppTest.loginWithCorrectCredentials()[pri:1, instance:com.fullstack.batch3.AppTest@5a955565] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+      </class> <!-- com.fullstack.batch3.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
